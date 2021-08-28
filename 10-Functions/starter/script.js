@@ -64,7 +64,7 @@ console.log(nithin);
  *
  * However, when we passed the object names `nithin` to the function and in
  * that function it is called passenger and we changed that passenger object
- * here. Here, the otiginal object will also be affected by that change.
+ * here. Here, the original object will also be affected by that change.
  * Because, when we pass just the reference type to the function what is
  * copied is really just the reference to the object in the memory heap.
  * This would be exactly the same as writing
@@ -111,7 +111,7 @@ console.log(nithin);
  * where we clearly passed the function as a value), we can also return a function
  * from another function.
  *
- * Just like there are methods inside many objects like array methods there are
+ * Just like there are methods inside many objects, like array methods, there are
  * also function methods - the methods that we can call on functions. For ex:
  * bind, call etc.
  *
