@@ -25,8 +25,9 @@
  * a pretty complex process which can eliminate unused code and compress our code
  * as well. This step is super important for 2 big reasons.
  * a. Older browsers don't support modules at all. So code inside a module could
- * not be executed by any old browsers. Better for performance to send less files
- * to the browser due to the code compression.
+ * not be executed by any old browsers.
+ * b. Better for performance to send less files to the browser due to the code
+ * compression.
  *
  * 2. Transpiling/Polyfilling: Basically converts all modern JavaScript syntax
  * and features back to old ES5 syntax so that even older broswers can understand

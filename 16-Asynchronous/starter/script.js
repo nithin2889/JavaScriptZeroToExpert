@@ -171,7 +171,7 @@ const getCountryAndNeighbour = function (country) {
  *
  * Advantage of using a promise:
  * 1. We no longer need to rely on events and callbacks passed into asynchronous
- * functions to handle asynchronous results. Events and callbacks can somtimes cause
+ * functions to handle asynchronous results. Events and callbacks can sometimes cause
  * unpredictable results which is a big win using promises already.
  * 2. Even better, we can chain promises for a sequence of asynchronous operations
  * instead of nesting which allows us to escape the callback hell.

@@ -462,7 +462,7 @@ booker();
  * variable that is defined in the secureBooking() function that actually has already
  * finished executing? but the inner function is still able to access the passengerCount
  * variable that is inside the booker function. The booker still some how continues to
- * have access to the vriables that were present at the time that the function was created.
+ * have access to the variables that were present at the time that the function was created.
  * This is because of closure. Closure makes a function remember all the variables that
  * existed at the function's creation time. So here, secureFunction() is the birthplace
  * of the booker() function.

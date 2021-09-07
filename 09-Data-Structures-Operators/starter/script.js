@@ -91,7 +91,7 @@ console.log(main, secondary);
 
 /**
  * Another trick with destructuring is that we can have a function return an array and
- * then we can immediately destruct the result into different vairables. This allows us
+ * then we can immediately destruct the result into different variables. This allows us
  * to return multiple values from a function.
  */
 const [starter, mains] = restaurant.order(3, 2);

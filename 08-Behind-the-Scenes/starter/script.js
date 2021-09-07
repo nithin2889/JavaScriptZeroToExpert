@@ -31,6 +31,7 @@
  * is an object except primitive values such as numbers, strings, boolean etc.
  * Have you ever wondered why we can create an array and then use the push method
  * on it, for example?
+ *
  * Well, it is because of prototypal inheritance. Basically, we create arrays
  * from an array blueprint, which is like a template and this is called the prototype.
  * This prototype contains all the array methods and the arrays that we create in
@@ -132,19 +133,20 @@
  *
  * Basically, the event loop takes callback functions from the callback queue and puts them in the
  * call stack so that they can be executed. The event loop is how JavaScript's non-blocking
- * concurrency model is implemented? Well, here is an overview of how that works. It's also important
- * to remember that JavaScript can exist outside of browsers, for example, in NodeJS. So here is
- * what the NodeJS runtime looks like. It's pretty similar, but since we don't have a browser of
- * course, we can't have the Web APIs because it's the browser who provides these. Instead we have
- * multiple C++ bindings and a so called thread pool.
+ * concurrency model is implemented.
+ *
+ * It's also important to remember that JavaScript can exist outside of browsers, for example,
+ * in NodeJS. So here is what the NodeJS runtime looks like. It's pretty similar, but since we
+ * don't have a browser of course, we can't have the Web APIs because it's the browser who provides
+ * these. Instead we have multiple C++ bindings and a so called thread pool.
  */
 /**
  * Scope is a place in our code where variables are declared. When we say variables, the exact
  * same thing is true for functions as well because functions are just values that are stored
  * in variables.
  *
- * Scoping asks the question "Where do the variables live?" or  "Where can we access a certain variable,
- * and where not?"
+ * Scoping asks the question "Where do the variables live?" or  "Where can we access a certain
+ * variable, and where not?"
  *
  * There are 3 types of scope:
  * 1. Global Scope - This is for top level code variables that are declared outside of any function
@@ -153,17 +155,18 @@
  * 2. Function Scope - Each and every function creates a scope and the variables that are created
  * inside that function are only accessible inside that function. Also called as LOCAL SCOPE opposed
  * to the Global Scope.
+ *
  * Function declarations, function expressions, and arrow functions all create their own scope.
  *
- * 3. Block Scope - Traditionally, only functions were used to create scopes in JavaScript. Starting ES6,
- * blocks also create scopes now. From blocks, we mean everything that is between a pair of curly
- * braces (if statement or a loop). However, the block scope is only applicable to variables declared
- * with `let` and `const`. The variables created using let and const are restricted to block in which
- * they were created. That's why we say let and const variables are block scoped. If we declare a variable
- * using `var` in a block, then that variable would actually still be accessible outside of the block,
- * and would be scoped to the closest function scope or to the global scope. Hence we say `var` is function
- * scoped. Another thing to note is if a function is declared inside a block, then that it is only
- * accessible inside the block.
+ * 3. Block Scope - Traditionally, only functions were used to create scopes in JavaScript. Starting
+ * ES6, blocks also create scopes now. From blocks, we mean everything that is between a pair of
+ * curly braces (if statement or a loop). However, the block scope is only applicable to variables
+ * declared with `let` and `const`. The variables created using let and const are restricted to
+ * block in which they were created. That's why we say let and const variables are block scoped. If
+ * we declare a variable using `var` in a block, then that variable would actually still be
+ * accessible outside of the block, and would be scoped to the closest function scope or to the
+ * global scope. Hence we say `var` is function scoped. Another thing to note is if a function is
+ * declared inside a block, then that it is only accessible inside the block.
  *
  * To reiterate, `let`, and `const` variables as well as functions are block scoped.
  */

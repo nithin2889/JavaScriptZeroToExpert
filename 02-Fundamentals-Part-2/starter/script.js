@@ -44,8 +44,8 @@ console.log(years2);
 
 /**
  * Basic array methods
- * 1. push() - pushes an element to the end of the array. Returns back the legth of the array.
- * 2. unshift() - adds an element to the beginning of an array. Returns back the legth of the array.
+ * 1. push() - pushes an element to the end of the array. Returns back the length of the array.
+ * 2. unshift() - adds an element to the beginning of an array. Returns back the length of the array.
  * 3. pop() - removes the last element from the array. Returns the popped/removed element.
  * 4. shift() - removes the first element from an array. Returns the popped/removed element.
  * 5. indexOf() - returns the index value of the element being passed. Returns -1 if the element is not present.
@@ -55,8 +55,8 @@ console.log(years2);
 
 /**
  * Object methods
- * The object that calls the function present inside it will have the `this` reference. Using the keyword
- * we can access the properties that are needed to calculate some value as shown below.
+ * The object that calls the function present inside it will have the `this` reference. Using the
+ * keyword we can access the properties that are needed to calculate some value as shown below.
  *
  * Also, we can add new attributes to the object for future calculations.
  */
