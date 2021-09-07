@@ -53,7 +53,8 @@ console.log(40 + 8 + 23 - 10);
  * console.log('23' * '2'); // 46
  * console.log('20' / '10'); // 2
  * console.log('23' > '19'); // true
- * Here the '-', '*', '/', '>' operators trigger an opposite conversion. That is, from string to numbers.
+ * Here the '-', '*', '/', '>' operators trigger an opposite conversion. That is, from string to
+ * numbers.
  *
  * Truthy and Falsy values:
  * Falsy values are not exactly false but will become false when we try to convert them into boolean.
@@ -64,8 +65,7 @@ console.log(40 + 8 + 23 - 10);
  * 3. undefined
  * 4. null
  * 5. NaN
- * All these will be converted to false when we try to convert them to boolean. However, JavaScript will
- * do implicit conversion.
+ * All these will be converted to false when we try to convert them to boolean. However, JavaScript * will do implicit conversion.
  *
  * When exactly does JavaScript do Type Coercion to booleans?
  * It happens in 2 scenarios.
